@@ -1,0 +1,45 @@
+<%=@each_name.sample do |n|%>
+<h1><%=n%></h1>
+<% end %>
+
+<section>
+  <div class="container">
+    <div class="col-sm-12">
+      <div class="row text-center">
+
+        <div class="masonry-container">
+          <div class="category-box col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <header class="category-header universities clearfix">
+              <div class="category-title" style="background: #32beeb">
+                <h5>과일 <span>(fruit)</span></h5>
+              </div>
+            </header>
+            <div class="category-list">
+              <ul class="category-inner-list">
+                  <li><a>사과(apple)</a></li>
+                  <li><a>포도(grape)</a></li>
+                  <li><a>키위(kiwi)</a></li>
+                  <li><a>오렌지(orange)</a></li>
+                  <li><a>수박(watermelon)</a></li>
+                  <li><a>멜론(melon)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+// Google Analystic
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63602526-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
